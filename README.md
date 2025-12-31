@@ -4,3 +4,4 @@ My learning notes and practice while studying HTML
 - HTML Attributes
 - HTML Headings
 - HTML Paragraphs
+- HTML Styles

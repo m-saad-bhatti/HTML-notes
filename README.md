@@ -5,3 +5,4 @@ My learning notes and practice while studying HTML
 - HTML Headings
 - HTML Paragraphs
 - HTML Styles
+- HTML Formatting

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="text-align: center;">HTML Quotation and Citation Elements</h1>
+    <h2>1. The HTML &lt;q&gt; — Inline Quotation Element</h2>
+    <p>The <q>HTML &lt;q&gt; element</q> is used to define a short inline quotation. Browsers typically render the text within this element with quotation marks.</p>
+    <p>For Example: Einstein said, <q>Imagination is more important than knowledge.</q></p>
+    <p>Syntax: <pre>&lt;q&gt;...&lt;/q&gt;</pre></p>
+    <pre style="font-size: 14px;">
+        Key Points
+            1. Browser automatically adds quotation marks
+            2. Best for short quotes
+            3. Inline element (does not break lines)
+    </pre>
+    
+    <h2>2. The HTML &lt;blockquote&gt; — Block Quotation Element</h2>
+    <p>The HTML &lt;blockquote&gt; element</blockquote> is used to define a long block quotation. Browsers typically render the text within this element with indentation.</p>
+    <p>For Example: <blockquote>
+    Education is the most powerful weapon which you can use to change the world.</blockquote>
+    </p>
+    <p>Syntax: <pre>&lt;blockquote&gt;...&lt;/blockquote&gt;</pre></p>
+   
+    <h3>2.1 "cite" attribute in &lt;blockquote&gt;</h3>
+    <p>The &lt;blockquote&gt; element can also include a "cite" attribute to specify the source of the quotation.</p>
+    <p>For Example: <blockquote cite="https://www.example.com/speech">
+    The only limit to our realization of tomorrow is our doubts of today.</blockquote>
+    </p>
+    <p>Syntax: <pre>&lt;blockquote cite="URL"&gt;...&lt;/blockquote&gt;</pre></p>
+    <pre>
+        <i>Notes:
+            The URL is not visible to users
+            Useful for search engines and tools</i></pre>
+    <pre style="font-size: 14px;">
+        Key Points
+            1. Browser indents the quotation
+            2. Best for long quotes
+            3. Block-level element (breaks lines)
+            4. "cite" attribute specifies the source URL
+    </pre>
+
+    <h2>3. The HTML &lt;cite&gt; — Citation Element</h2>
+    <p>The <cite>HTML &lt;cite&gt; element</cite> is used to define the title of a work, such as a book, article, or song. Browsers typically render the text within this element in italics.</p>
+    <p>For Example: My favorite book is <cite>Atomic Habits</cite> by F. Scott Fitzgerald.</p>
+    <p>Syntax: <pre>&lt;cite&gt;...&lt;/cite&gt;</pre></p>
+    <pre style="font-size: 14px;">
+        Key Points
+            1. Browser typically italicizes the text
+            2. Represents the source work
+            3. Inline element (does not break lines)
+    </pre>
+
+    <h2>4. The HTML &lt;abbr&gt; — Abbreviation Element</h2>
+    <p>The <abbr>HTML &lt;abbr&gt; element</abbr> is used to define an abbreviation or acronym. Browsers typically display the text in italics and show a tooltip with the full form when hovering over the abbreviation.</p>
+    <p>For Example: The <abbr title="World Health Organization">WHO</abbr> is a global health organization.</p>
+    <p>Syntax: <pre>&lt;abbr title="Full Form"&gt;Abbreviation&lt;/abbr&gt;</pre></p>
+    <pre style="font-size: 14px;">
+        Key Points
+            1. Browser typically italicizes the text
+            2. "title" attribute provides full form on hover
+            3. Inline element (does not break lines)
+    </pre>
+
+    <h2>5. The HTML &lt;address&gt; — Contact Information Element</h2>
+    <p>The <address>HTML &lt;address&gt; element</address> is used to define the contact information of the author or owner of a document or article. Browsers typically render the text within this element in italics.</p>
+    <p>For Example: <address>
+        John Doe<br>
+        123 Main Street<br>
+        Anytown, USA
+    </address></p>
+    <p>Syntax: <pre>&lt;address&gt;...&lt;/address&gt;</pre></p>
+    <pre style="font-size: 14px;">
+        Key Points
+            1. Browser typically italicizes the text
+            2. Used for contact information
+            3. Block-level element (breaks lines)
+    </pre>
+
+    <h2>6. The HTML &lt;bdo&gt; — Bidirectional Text Element</h2>
+    <p>The <bdo>HTML &lt;bdo&gt; element</bdo> is used to override the default text direction. It allows you to change the direction of text within an element, such as from left-to-right (LTR) to right-to-left (RTL).</p>
+    <p>For Example: <bdo dir="rtl">This text will be displayed in right-to-left direction.</bdo></p>
+    <p>Syntax: <pre>&lt;bdo dir="ltr|rtl"&gt;...&lt;/bdo&gt;</pre></p>
+    <pre style="font-size: 14px;">
+        Key Points
+            1. "dir" attribute specifies the text direction
+            2. "ltr" for left-to-right, "rtl" for right-to-left
+            3. Inline element (does not break lines)
+    </pre>
+
+    <h2>Chapter Summary</h2>
+    <pre style="font-size: 14px; font-family: Arial, sans-serif;">
+        1. Use &lt;q&gt; for short inline quotations
+        2. Use &lt;blockquote&gt; for long block quotations
+        3. Use &lt;cite&gt; for titles of works
+        4. Use &lt;abbr&gt; for abbreviations and acronyms
+        5. Use &lt;address&gt; for contact information
+        6. Use &lt;bdo&gt; to override text direction
+    </pre>
+</body>
+</html>

@@ -116,5 +116,5 @@ Each element includes explanation, syntax, and key points.
 - Continuously improving and expanding  
 
 ---
-
+## Run the HTML File and read the code and output simultaniously
 Feel free to explore the files and learn along with the examples.

@@ -101,6 +101,39 @@ Each element includes explanation, syntax, and key points.
 
 ---
 
+---
+
+### 7. HTML Colors
+HTML colors are used to define the color of text, backgrounds, borders, and other elements.
+
+Colors can be applied using the `style` attribute and CSS color properties.
+
+Color formats covered:
+
+- **Color Names**  
+  Predefined color names such as `red`, `blue`, `green`, `black`, etc.
+
+- **RGB Values**  
+  Uses red, green, and blue values.  
+  Example: `rgb(255, 0, 0)`
+
+- **HEX Values**  
+  Hexadecimal representation of colors.  
+  Example: `#ff0000`
+
+- **HSL Values**  
+  Defines colors using hue, saturation, and lightness.  
+  Example: `hsl(0, 100%, 50%)`
+
+Common uses of colors in HTML:
+
+- Text color using `color`  
+- Background color using `background-color`  
+- Applying colors to different HTML elements  
+
+Examples demonstrate how different color formats affect the appearance of a webpage.
+
+
 ## Purpose of This Repository
 
 - Practice HTML fundamentals  

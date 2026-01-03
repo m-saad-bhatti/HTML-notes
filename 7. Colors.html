@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Colors</title>
+
+    <!-- 
+    CORRECTION:
+    Earlier you used a lot of inline styles.
+    For now it's allowed, but defining some styles here already reduces repetition
+    and prepares you for CSS without changing your approach.
+    -->
+    <style>
+        .box {
+            padding: 10px;
+            margin: 5px 0;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- ======================= -->
+    <!-- HTML COLORS -->
+    <!-- ======================= -->
+
+    <h1>HTML Colors</h1>
+    <p>
+        HTML colors are used to style text, backgrounds, borders, and other elements.
+        Colors can be defined using different color models such as RGB, HEX, and HSL.
+    </p>
+
+    <!-- ======================= -->
+    <!-- RGB COLORS -->
+    <!-- ======================= -->
+
+    <h2>1. RGB Colors</h2>
+
+    <p>
+        RGB stands for <b>Red, Green, Blue</b>.
+        Each value ranges from <b>0 to 255</b>.
+    </p>
+
+    <!-- 
+    PRACTICE:
+    Using inline style for learning is fine.
+    CORRECTION:
+    Earlier you sometimes relied on appearance.
+    Here, the meaning is clear: background-color demonstrates RGB.
+    -->
+    <p style="background-color: rgb(255, 0, 0);" class="box">
+        rgb(255, 0, 0) → Red
+    </p>
+
+    <p style="background-color: rgb(0, 255, 0);" class="box">
+        rgb(0, 255, 0) → Green
+    </p>
+
+    <p style="background-color: rgb(0, 0, 255);" class="box">
+        rgb(0, 0, 255) → Blue
+    </p>
+
+    <p>
+        Mixing values creates new colors.
+    </p>
+
+    <p style="background-color: rgb(255, 165, 0);" class="box">
+        rgb(255, 165, 0) → Orange
+    </p>
+
+    <p>
+        Special RGB values:
+    </p>
+
+    <!-- 
+    CORRECTION:
+    You previously used <pre> for notes.
+    Here I deliberately use <ul><li>.
+    Same visual idea, correct semantic meaning.
+    -->
+    <ul>
+        <li>rgb(0, 0, 0) → Black</li>
+        <li>rgb(255, 255, 255) → White</li>
+        <li>rgb(128, 128, 128) → Gray</li>
+    </ul>
+
+    <!-- ======================= -->
+    <!-- HEX COLORS -->
+    <!-- ======================= -->
+
+    <h2>2. HEX Colors</h2>
+
+    <p>
+        HEX colors use <b>hexadecimal values</b>.
+        They start with <b>#</b> followed by 6 characters.
+    </p>
+
+    <p>
+        Format:
+        <code>#RRGGBB</code>
+    </p>
+
+    <!-- 
+    EXPLANATION:
+    RR → Red
+    GG → Green
+    BB → Blue
+    Values range from 00 to FF
+    -->
+
+    <p style="background-color: #FF0000;" class="box">
+        #FF0000 → Red
+    </p>
+
+    <p style="background-color: #00FF00;" class="box">
+        #00FF00 → Green
+    </p>
+
+    <p style="background-color: #0000FF;" class="box">
+        #0000FF → Blue
+    </p>
+
+    <p>
+        HEX shorthand exists when both digits are the same.
+    </p>
+
+    <p style="background-color: #000;" class="box">
+        #000 → Black
+    </p>
+
+    <p style="background-color: #FFF; color: black;" class="box">
+        #FFF → White
+    </p>
+
+    <!-- 
+    CORRECTION:
+    Earlier you described colors mainly by appearance.
+    Here the logic is emphasized: HEX is just RGB in base-16.
+    -->
+
+    <!-- ======================= -->
+    <!-- HSL COLORS -->
+    <!-- ======================= -->
+
+    <h2>3. HSL Colors</h2>
+
+    <p>
+        HSL stands for <b>Hue, Saturation, Lightness</b>.
+        This model is more human-friendly.
+    </p>
+
+    <p>
+        Syntax:
+        <code>hsl(hue, saturation%, lightness%)</code>
+    </p>
+
+    <ul>
+        <li><b>Hue</b>: Color angle (0–360)</li>
+        <li><b>Saturation</b>: Color intensity</li>
+        <li><b>Lightness</b>: Brightness</li>
+    </ul>
+
+    <p style="background-color: hsl(0, 100%, 50%);" class="box">
+        hsl(0, 100%, 50%) → Red
+    </p>
+
+    <p style="background-color: hsl(120, 100%, 50%);" class="box">
+        hsl(120, 100%, 50%) → Green
+    </p>
+
+    <p style="background-color: hsl(240, 100%, 50%);" class="box">
+        hsl(240, 100%, 50%) → Blue
+    </p>
+
+    <p>
+        Adjusting lightness:
+    </p>
+
+    <p style="background-color: hsl(200, 100%, 30%);" class="box">
+        Dark Blue (30% lightness)
+    </p>
+
+    <p style="background-color: hsl(200, 100%, 70%);" class="box">
+        Light Blue (70% lightness)
+    </p>
+
+    <!-- ======================= -->
+    <!-- SUMMARY -->
+    <!-- ======================= -->
+
+    <h2>Chapter Summary</h2>
+
+    <!-- 
+    CORRECTION:
+    Instead of <pre> for summaries, list structure is clearer and correct.
+    -->
+    <ul>
+        <li>RGB uses values from 0 to 255</li>
+        <li>HEX is a hexadecimal representation of RGB</li>
+        <li>HSL is easier to adjust for brightness and intensity</li>
+        <li>All models represent the same colors differently</li>
+    </ul>
+
+    <!-- 
+    IMPORTANT NOTE:
+    You are still using inline styles for learning.
+    This is acceptable NOW.
+    When CSS starts, all color logic moves out of HTML.
+    -->
+
+</body>
+</html>

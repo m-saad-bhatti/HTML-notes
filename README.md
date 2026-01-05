@@ -5,7 +5,7 @@ This repository contains basic concepts, explanations, and examples that I cover
 
 ---
 
-## Topics Covered
+### Topics Covered
 
 ### 1. HTML Attributes
 Examples and usage of common HTML attributes, including:
@@ -133,6 +133,47 @@ Common uses of colors in HTML:
 
 Examples demonstrate how different color formats affect the appearance of a webpage.
 
+---
+
+### 7. HTML + CSS Basics
+CSS (Cascading Style Sheets) is used to control the appearance of a webpage, while HTML defines its structure.
+
+Topics covered:
+
+- Purpose of CSS  
+- Meaning of “cascading”  
+- How CSS affects HTML elements  
+
+Examples demonstrate how CSS styles HTML content.
+
+---
+
+## CSS Types
+Different ways to apply CSS to HTML elements.
+
+Covered methods:
+
+- **Inline CSS** – using the `style` attribute  
+- **Internal CSS** – using the `<style>` tag in `<head>`  
+- **External CSS** – using a linked `.css` file  
+
+Each method is explained with syntax and use cases.
+
+---
+
+## Basic CSS Properties
+Common CSS properties used for styling elements.
+
+Properties covered:
+
+- Text color (`color`)  
+- Font family (`font-family`)  
+- Font size (`font-size`)  
+- Borders  
+- Padding  
+- Margin  
+
+Examples show how spacing and appearance are controlled using CSS.
 
 ## Purpose of This Repository
 

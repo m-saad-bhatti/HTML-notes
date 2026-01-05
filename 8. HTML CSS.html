@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML + CSS Basics</title>
+
+    <!--
+    INTERNAL CSS
+    Reason:
+    You are learning CSS, so styles belong here, not inline everywhere.
+    -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        h2 {
+            margin-top: 40px;
+            color: #333;
+        }
+
+        p {
+            background-color: white;
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- ======================= -->
+    <!-- WHAT IS CSS -->
+    <!-- ======================= -->
+
+    <h1>HTML + CSS Basics</h1>
+
+    <h2>What is CSS?</h2>
+    <p>
+        CSS (Cascading Style Sheets) is used to control the appearance of a webpage.
+        HTML creates the structure, CSS controls how it looks.
+    </p>
+
+    <p>
+        With CSS, you can change colors, fonts, text size, spacing,
+        layout, and how content appears on different screen sizes.
+    </p>
+
+    <!-- ======================= -->
+    <!-- CASCADING -->
+    <!-- ======================= -->
+
+    <h2>What does "Cascading" mean?</h2>
+    <p>
+        Cascading means styles flow from parent elements to child elements.
+        If a style is applied to the body, it affects all text inside it
+        unless another style overrides it.
+    </p>
+
+    <!-- ======================= -->
+    <!-- INLINE CSS -->
+    <!-- ======================= -->
+
+    <h2>1. Inline CSS</h2>
+    <p>
+        Inline CSS is written directly inside an HTML element
+        using the style attribute.
+    </p>
+
+    <!-- Inline CSS example -->
+    <h3 style="color: blue;">This heading uses inline CSS</h3>
+    <p style="color: red;">
+        syntax: &lt;tagname style="property:value;"&gt; content &lt;/tagname&gt; <br>
+        This paragraph uses inline CSS.
+    </p>
+
+    <p>
+        Inline CSS should be used only for testing or single elements.
+        Using it everywhere makes code hard to manage.
+    </p>
+
+    <!-- ======================= -->
+    <!-- INTERNAL CSS -->
+    <!-- ======================= -->
+
+    <h2>2. Internal CSS</h2>
+    <p>
+        Internal CSS is written inside a style tag
+        in the head section of the HTML document. <br>
+        syntax: &lt;style&gt; CSS rules &lt;/style&gt;
+    </p>
+
+    <p>
+        It is useful when one page needs multiple styles.
+        The styles at the top of this file are an example of internal CSS.
+    </p>
+
+    <!-- ======================= -->
+    <!-- External CSS -->
+    <!-- ======================= -->
+
+    <h2>3. External CSS</h2>
+    <p>
+        External CSS is written in a separate .css file.
+        It is linked to the HTML document using the &lt;link&gt; tag.
+        This method is best for reusing styles across multiple pages. <br>
+        syntax: &lt;link rel="stylesheet" href="styles.css"&gt;
+    </p>
+
+    <!-- ======================= -->
+    <!-- CSS COLORS, FONTS, SIZES -->
+    <!-- ======================= -->
+
+    <h2>CSS Colors, Fonts, and Sizes</h2>
+    <p>
+        CSS properties allow you to control how text appears.
+    </p>
+
+    <!-- Inline used ONLY to demonstrate properties -->
+    <p style="color: blue; font-family: Verdana; font-size: 20px;">
+        syntax: property: value;
+        This paragraph demonstrates color, font-family, and font-size.
+    </p>
+
+    <!-- ======================= -->
+    <!-- BORDER -->
+    <!-- ======================= -->
+
+    <h2>CSS Border</h2>
+    <p style="border: 2px solid powderblue;">
+        This paragraph has a border.
+    </p>
+
+    <!-- ======================= -->
+    <!-- PADDING -->
+    <!-- ======================= -->
+
+    <h2>CSS Padding</h2>
+    <p style="border: 2px solid powderblue; padding: 20px;">
+        Padding creates space between the text and the border.
+    </p>
+
+    <!-- ======================= -->
+    <!-- MARGIN -->
+    <!-- ======================= -->
+
+    <h2>CSS Margin</h2>
+    <p style="border: 2px solid powderblue; margin: 30px;">
+        Margin creates space outside the border.
+    </p>
+
+    <!-- ======================= -->
+    <!-- SUMMARY -->
+    <!-- ======================= -->
+
+    <h2>Chapter Summary</h2>
+    <p>
+        HTML defines structure.
+        CSS defines appearance.
+        Inline CSS styles single elements.
+        Internal CSS styles an entire page.
+        Border, padding, and margin control spacing.
+    </p>
+
+</body>
+</html>

@@ -146,7 +146,6 @@ Topics covered:
 
 Examples demonstrate how CSS styles HTML content.
 
----
 
 ## CSS Types
 Different ways to apply CSS to HTML elements.
@@ -159,7 +158,6 @@ Covered methods:
 
 Each method is explained with syntax and use cases.
 
----
 
 ## Basic CSS Properties
 Common CSS properties used for styling elements.
